@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
     async function getSchedule() {
-      const resS = await fetch("http://localhost:8080/schedule");
+      const resS = await fetch("https://footrypleaseworkanddeletelateron.fly.dev/schedule");
       const schedule = await resS.json();
       setSchedule(schedule);
     }
