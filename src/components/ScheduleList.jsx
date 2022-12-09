@@ -1,4 +1,4 @@
-// import Schedule from "./Schedule";
+import Schedule from "./Schedule";
 
 function ScheduleList(props) {
   console.log(props);

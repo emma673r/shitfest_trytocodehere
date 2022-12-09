@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import BandList from "./components/BandList";
+// import BandList from "./components/BandList";
 import ScheduleList from "./components/ScheduleList";
 import "./App.css";
 
